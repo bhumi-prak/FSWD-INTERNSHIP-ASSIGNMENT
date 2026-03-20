@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+.error{
+color:red;
+font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Registration Form</h2>
+
+<form id="registerForm">
+
+<label>Name:</label><br>
+<input type="text" id="name">
+<p id="nameError" class="error"></p>
+
+<label>Email:</label><br>
+<input type="text" id="email">
+<p id="emailError" class="error"></p>
+
+<label>Password:</label><br>
+<input type="password" id="password">
+<p id="passwordError" class="error"></p>
+
+<label>Confirm Password:</label><br>
+<input type="password" id="confirmPassword">
+<p id="confirmError" class="error"></p>
+
+<button type="submit">Register</button>
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
