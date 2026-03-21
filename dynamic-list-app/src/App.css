@@ -1,0 +1,40 @@
+body{
+  font-family: Arial;
+  background:#f4f4f4;
+}
+
+.container{
+  width:400px;
+  margin:auto;
+  margin-top:60px;
+  text-align:center;
+}
+
+input{
+  padding:8px;
+  width:200px;
+}
+
+button{
+  padding:8px 12px;
+  margin-left:10px;
+  cursor:pointer;
+}
+
+ul{
+  padding:0;
+}
+
+li{
+  list-style:none;
+  padding:10px;
+  margin:10px 0;
+  background:white;
+  display:flex;
+  justify-content:space-between;
+}
+
+.completed{
+  text-decoration: line-through;
+  color:gray;
+}
