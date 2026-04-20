@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+}
